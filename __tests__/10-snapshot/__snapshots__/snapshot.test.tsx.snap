@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`UserCard Snapshot role prop이 포함된 UI 1`] = `
+<article
+  class="border rounded-lg p-4 shadow-sm"
+  data-testid="user-card"
+>
+  <h2
+    class="text-lg font-bold"
+  >
+    이영희
+  </h2>
+  <p
+    class="text-gray-600"
+  >
+    lee@example.com
+  </p>
+  <span
+    class="inline-block mt-2 px-2 py-1 bg-blue-100 text-blue-800 text-sm rounded"
+  >
+    admin
+  </span>
+</article>
+`;
+
+exports[`UserCard Snapshot 기본 props로 렌더링된 UI가 일치한다 1`] = `
+<article
+  class="border rounded-lg p-4 shadow-sm"
+  data-testid="user-card"
+>
+  <h2
+    class="text-lg font-bold"
+  >
+    김철수
+  </h2>
+  <p
+    class="text-gray-600"
+  >
+    kim@example.com
+  </p>
+  <span
+    class="inline-block mt-2 px-2 py-1 bg-blue-100 text-blue-800 text-sm rounded"
+  >
+    member
+  </span>
+</article>
+`;
